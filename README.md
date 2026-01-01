@@ -27,7 +27,7 @@ A simple, interactive command-line todo application built with Python.
 
 Run the application using uv:
 ```bash
-uv run python src/todo_cli/cli/main.py
+PYTHONPATH=src uv run python src/todo_cli/cli/main.py
 ```
 
 ## Running Tests
