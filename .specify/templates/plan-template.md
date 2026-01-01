@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Spec-Driven First: Verify all behavior is defined in Markdown specs before implementation
+- AI-Native Architecture: Confirm implementation aligns with AI-governable and spec-compliant design
+- Test-First (NON-NEGOTIABLE): Ensure tests are written before implementation with clear acceptance criteria
+- Integration Testing: Identify integration test requirements for AI chatbot, API contracts, and deployment validation
+- Cloud-Native by Design: Verify progressive evolution approach from console to cloud-native deployment
+- Reusable Intelligence: Confirm agent skills and subagents are modular and spec-defined
 
 ## Project Structure
 

@@ -8,6 +8,13 @@ description: "Task list template for feature implementation"
 **Input**: Design documents from `/specs/[###-feature-name]/`
 **Prerequisites**: plan.md (required), spec.md (required for user stories), research.md, data-model.md, contracts/
 
+**Constitution Compliance**: All tasks must align with constitution principles:
+- Spec-Driven First: Implementation follows specs defined in Markdown
+- AI-Native Architecture: AI-governable and spec-compliant design
+- Test-First: Tests written before implementation with clear acceptance criteria
+- Cloud-Native by Design: Progressive evolution approach (Console → API → AI → Cloud → Production)
+- Reusable Intelligence: Modular and spec-defined components
+
 **Tests**: The examples below include test tasks. Tests are OPTIONAL - only include them if explicitly requested in the feature specification.
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
@@ -192,6 +199,15 @@ Examples of foundational tasks (adjust based on your project):
 - All tests for a user story marked [P] can run in parallel
 - Models within a story marked [P] can run in parallel
 - Different user stories can be worked on in parallel by different team members
+
+### Constitution Compliance Checkpoints
+
+- At each phase completion, verify alignment with constitution principles:
+  - Spec-Driven First: All behavior defined in specs before implementation
+  - AI-Native Architecture: Implementation is AI-governable and spec-compliant
+  - Test-First: Tests written before implementation with clear acceptance criteria
+  - Cloud-Native by Design: Progressive evolution approach maintained
+  - Reusable Intelligence: Components remain modular and spec-defined
 
 ---
 
