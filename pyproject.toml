@@ -1,0 +1,16 @@
+[project]
+name = "todo"
+version = "0.1.0"
+description = "Basic Todo CLI App"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "inquirer>=3.4.1",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "rich>=14.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
