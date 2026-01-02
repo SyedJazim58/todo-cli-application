@@ -80,12 +80,18 @@
 <!--
   ACTION REQUIRED: The content in this section represents placeholders.
   Fill them out with the right functional requirements.
+  Remember to align with constitution principles:
+  - Spec-Driven First: All behavior defined in specs before implementation
+  - AI-Native Architecture: AI-governable and spec-compliant design
+  - Test-First: Acceptance criteria defined in specs
+  - Cloud-Native by Design: Progressive evolution approach
+  - Reusable Intelligence: Modular and spec-defined components
 -->
 
 ### Functional Requirements
 
 - **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
+- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]
 - **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
 - **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
 - **FR-005**: System MUST [behavior, e.g., "log all security events"]
@@ -99,6 +105,14 @@
 
 - **[Entity 1]**: [What it represents, key attributes without implementation]
 - **[Entity 2]**: [What it represents, relationships to other entities]
+
+### Constitution Alignment
+
+- **Spec-Driven First**: All functionality must be defined in Markdown specs before implementation
+- **AI-Native Architecture**: Implementation must be AI-governable and spec-compliant
+- **Test-First**: Each requirement must have clear acceptance criteria defined in specs
+- **Cloud-Native by Design**: Architecture must support progressive evolution (Console → API → AI → Cloud → Production)
+- **Reusable Intelligence**: Components must be modular and spec-defined for reusability
 
 ## Success Criteria *(mandatory)*
 

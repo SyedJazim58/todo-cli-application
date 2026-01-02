@@ -1,55 +1,51 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 1.0.0 → 2.0.0
+- Modified principles:
+  - Spec-Driven First (replaces Library-First)
+  - AI-Native Architecture (replaces CLI Interface)
+  - Test-First (NON-NEGOTIABLE) (updated focus)
+  - Integration Testing (updated focus)
+  - Cloud-Native by Design (new principle)
+  - Reusable Intelligence (new principle)
+- Added sections: Additional Constraints, Development Workflow
+- Removed sections: None
+- Templates requiring updates:
+  - .specify/templates/plan-template.md ✅ updated
+  - .specify/templates/spec-template.md ✅ updated
+  - .specify/templates/tasks-template.md ✅ updated
+- Follow-up TODOs: None
+-->
+
+# Hackathon II – Evolution of Todo Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Spec-Driven First
+All behavior must be defined in Markdown specs before implementation; No manual code without corresponding spec; Specs serve as the single source of truth for all functionality.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### AI-Native Architecture
+Engineers act as system architects, not syntax writers; All implementations must be AI-governable and spec-compliant; Natural-language processing and tool usage must be governed by specifications.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Test-First (NON-NEGOTIABLE)
+TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced; All features require acceptance criteria defined in specs.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Integration Testing
+Focus areas requiring integration tests: AI chatbot interactions, API contract tests, Cloud-native deployment validation, Spec-implementation alignment verification.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Cloud-Native by Design
+Containers, Kubernetes, scalability, and observability included from phase 1; Progressive evolution: Console → API → AI → Cloud → Production; All phases must build strictly on previous phase.
 
-### [PRINCIPLE_6_NAME]
+### Reusable Intelligence
+Agent skills and subagents must be modular and spec-defined; Code must be reusable as cloud-native blueprints; Intelligence artifacts (specs, plans, tasks) must be systematically captured and maintained.
 
+## Additional Constraints
+Technology stack requirements: Backend (FastAPI, SQLModel, Neon), Frontend (Next.js), AI (OpenAI Chatkit, Agents SDK, MCP SDK), Infra (Docker, Kubernetes, Minikube, Helm, DOKS), Ops/Eventing (Kafka, Dapr, kubectl-ai, kagent); Manual coding is prohibited; Every feature requires a spec + acceptance criteria.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Development Workflow
+Progressive Evolution: Each phase builds strictly on the previous phase; AI requirements include natural-language Todo management, tool usage and reasoning governed by specs, ambiguity handled via clarification flows; Feature scope includes Basic (Add, Delete, Update, View, Complete), Intermediate (Priorities/Tags, Search/Filter, Sort), Advanced (Recurring Tasks, Due Dates, Reminders).
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Constitution supersedes all other practices; All implementations must comply with Spec-Driven Development requirements; Amendments require documentation, approval, and migration plan; All PRs/reviews must verify compliance with spec-driven principles and AI-native architecture; Complexity must be justified through clear architectural decisions.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 2.0.0 | **Ratified**: 2025-06-13 | **Last Amended**: 2025-12-29
